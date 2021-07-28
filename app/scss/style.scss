@@ -42,4 +42,24 @@
     }
 }
 
+.footer {
+    &__content {
+        background-color: #dfdfdf;
+        padding: 60px 0 80px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__info-title {
+        
+    }
+
+    &__copyright {
+        background-color: $title;
+        color: #A1A1A1;
+        text-align: center;
+        padding: 42px 15px 41px;
+    }
+}
+
 
