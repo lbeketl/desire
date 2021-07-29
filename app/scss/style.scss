@@ -46,12 +46,61 @@
     &__content {
         background-color: #dfdfdf;
         padding: 60px 0 80px;
+    }
+
+    &__inner {
         display: flex;
         justify-content: space-between;
     }
 
+    &__info {
+        width: 540px;
+    }
+
     &__info-title {
-        
+       color: $title;
+       @extend %title-font;
+       margin-bottom: 14px;
+       line-height: 23px; 
+    }
+
+    &__info-text {
+        margin-bottom: 16px;
+        max-width: 475px;
+    }
+
+    &__info-email {
+        font-weight: 600;
+        font-size: 14px;
+        color: $title;
+        margin-bottom: 22px;
+        padding-left: 30px;
+        display: inline-block;
+    }
+
+    &__form {
+
+    }
+
+    &__form-input {
+        padding: 6px 10px 6px 18px;
+        border-radius: 21px;
+        border: 1px solid rgba($title, .7);
+        background-color: transparent;
+        width: 368px;
+
+        &::placeholder {
+            font-weight: 400;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 27px;
+            color: #a1a1a1;
+        }
+    }
+
+    &__form-button {
+
     }
 
     &__copyright {
