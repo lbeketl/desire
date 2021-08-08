@@ -9,6 +9,8 @@ body {
 	line-height: 27px;
 	font-weight: 400;
 	color: $default ;
+	min-width: 320px;
+	overflow-x: hidden;
 }
 
 .wrapper {
